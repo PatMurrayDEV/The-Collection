@@ -90,7 +90,7 @@ h2 {
 
 .button:hover {
 	font-size: 16px;
-	color: clear;
+	color: white;
 	background-color: black;
 }
 
@@ -207,8 +207,35 @@ footer {
     color: gray;
     background-color: #4C4C4C;
     opacity: 1.0;
-}    
+}  
 
+
+
+/* Email - MailChimp   */
+#mc-embedded-subscribe-form {
+	margin-bottom: 0;
+}
+
+#mc_embed_signup input.button {
+	font-size: 16px;
+	color: black;
+}
+
+#mc_embed_signup input.button:hover {
+	font-size: 16px;
+	background-color: black;
+	color: white;
+}
+
+.signup {
+	text-align: center;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #cccccc;
+	padding: 10px;
+	margin-bottom: 4%;
+}
 
 #page {
 	margin-bottom: 200px; 
